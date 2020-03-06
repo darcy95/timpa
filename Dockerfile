@@ -9,4 +9,4 @@ RUN apt-get update
 RUN apt-get install -y git
 RUN rm -rf html
 ADD front /var/www/html/front
-ADD back /var/www/html/back
+#ADD back /var/www/html/back
